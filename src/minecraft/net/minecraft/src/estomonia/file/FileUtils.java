@@ -23,11 +23,11 @@ public class FileUtils {
 		try {
 			File file = new File(dir.getAbsolutePath(), "welcome.txt");
 			BufferedWriter out = new BufferedWriter(new FileWriter(file));
-			out.write("Welcome to " + "Estomonia" + "!");
+			out.write("witaj w " + "Estomonii" + "!");
 			out.newLine();
-			out.write("For the betalands community, owned by Sweetz.");
+			out.write("Dla spolecznosci betalands Sweetz'a.");
 			out.newLine();
-			out.write("I hope you enjoyed this more then I did making it.");
+			out.write("Mam nadzieje, ze bawisz sie lepiej niz ja przy kodowaniu tego.");
 			out.newLine();
 			out.write("~Jay");
 			out.close();
